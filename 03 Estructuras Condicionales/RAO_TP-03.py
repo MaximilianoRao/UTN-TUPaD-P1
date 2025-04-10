@@ -186,10 +186,11 @@ elif(magnitud >= 7):
 print("Ejercicio 10")
 # Al final del input uso la función upper() para dejarlo en mayúscula sin importar como lo ingrese.
 hemisferio = input("Ingrese el hemisferio en el que se encuentra \n N : para NORTE \n S : para SUR\n ").upper()
-# al final del input uso la función lower() para dejarlo en minúscula sin importar como lo ingrese.
+# Al final del input uso la función lower() para dejarlo en minúscula sin importar como lo ingrese.
 mes = input("Ingrese el mes del año: ").lower()
 dia = int(input("Ingrese el día: "))
 print("La estación del año es:")
+# La metodologia que utilice fue analizar los meses, luego el hemisferio, en la meses limites analizaba el día primero y luego el hemisferio.
 if(mes == "enero"):
     if(hemisferio == "N"):
         print("Invierno")
